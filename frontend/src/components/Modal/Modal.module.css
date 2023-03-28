@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  height: 100vh;
+  width: 100%;
+}
+.modal_bg {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.299);
+  height: 100%;
+  width: 100%;
+}
+.modal_bg_blur {
+  position: fixed;
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+}
+.mainContent {
+  padding: 0 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal_panel {
+  width: 100%;
+}

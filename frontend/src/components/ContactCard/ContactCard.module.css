@@ -1,0 +1,89 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+
+  border: 1.5px solid var(--color-btn-primary);
+  border-radius: 5px;
+  border-bottom: 2px solid var(--color-primary);
+  min-width: 21rem;
+  gap: 1rem;
+  width: 15%;
+  max-width: 25rem;
+  padding: 0.75rem 1.5rem;
+  position: relative;
+}
+.inputF {
+  border-radius: 5px;
+  width: 100%;
+}
+.panel.panel {
+  min-width: 300px;
+  width: 100%;
+  max-width: 450px;
+  /* margin: 0 1rem; */
+}
+.contactadd {
+  text-align: center;
+}
+.userName {
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+.userPhone_num {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1rem;
+  font-weight: 500;
+}
+.country_code {
+  display: flex;
+  gap: 0.25rem;
+}
+.country_code > p:first-of-type {
+  background-color: #000;
+  font-weight: 300;
+  color: var(--color-btn-primary);
+}
+
+.numlink {
+  color: var(--color-primary);
+}
+
+.numlink:link,
+.numlink:visited,
+.numlink:hover,
+.numlink:active {
+  text-decoration: none;
+}
+
+.btn_contact.btn_contact {
+  /* border-radius: 50%; */
+  /* background-color: aliceblue; */
+
+  font-size: 1.125rem;
+  padding: 0.25rem;
+  /* width: 2rem;
+  height: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  position: absolute;
+  top: 0.25rem;
+}
+.btn_edit.btn_edit {
+  right: 2.5rem;
+}
+
+.btn_del.btn_del {
+  right: 0.25rem;
+  color: #c62828;
+}
+
+.modalAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}

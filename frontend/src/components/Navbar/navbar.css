@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--color-primary);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.nav_link:link,
+.nav_link:visited,
+.nav_link:hover,
+.nav_link:active {
+  text-decoration: none;
+}
+.ContactAdd_action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.navbar_logo {
+  height: 4rem;
+  object-fit: cover;
+}
+.NavbarComp.panel {
+  min-width: 300px;
+  width: 100%;
+  max-width: 450px;
+  /* margin: 0 1rem; */
+}
+
+.navbarAddContact.input {
+  width: 100%;
+}
+
+.navbar_logo > img {
+  height: 4rem;
+  /* width: 4rem; */
+}
+
+.navbar_action {
+  display: flex;
+  gap: 0.75rem;
+}

@@ -1,0 +1,32 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #fff;
+  transition: all linear 0.1s;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn_primary {
+  background-color: var(--color-btn-primary);
+  color: var(--color-primary);
+}
+.btn_secondary {
+  background-color: var(--color-black);
+  color: var(--color-primary);
+}
+.btn_common {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}

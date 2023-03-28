@@ -1,0 +1,8 @@
+.flags {
+  flex: 1 0 2rem;
+  width: 2rem;
+}
+
+.flags > img {
+  width: 100%;
+}

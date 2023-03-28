@@ -1,0 +1,108 @@
+.Com_container {
+  /* position: absolute;
+    top: 50%;
+    left: 50%; */
+
+  min-width: 900px;
+  max-width: 1200px;
+  width: 100%;
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  margin: 2rem auto;
+}
+.Com_header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+.btn {
+  margin-top: 4rem;
+}
+
+.Com_input {
+  width: 100%;
+  border-radius: 5px;
+}
+/* .loginPg_actions {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+.signIn_Up_opts_box {
+  margin-top: 2rem;
+}
+.signIn_Up_text {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.signIn_Up_opts {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.sIn_Up_option {
+  font-size: 1.625rem;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.google {
+  color: #db4437;
+  /* background-color: brown; */
+}
+
+.twitter {
+  /* background-color: transparent; */
+  color: #1da1f2;
+}
+.facebook svg {
+  color: #4267b2;
+  font-size: 1.75rem;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+/* ****************** */
+/* ******************* */
+/* *************** */
+
+/* Ethos: We want to help you save your contacts so you never lose them again. That's why our site is super simple to use and features a personalized search system.
+  
+  Slogan: "Keep your friends close - and your contacts book handy" */
+.panel_logRgform {
+  min-width: 375px;
+  max-width: 450px;
+  width: 50%;
+}
+
+.hero_section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero_slogan {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.hero_ethos {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.hero_img {
+  width: 400px;
+  height: 400px;
+}

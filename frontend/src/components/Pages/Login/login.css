@@ -1,0 +1,49 @@
+.login_cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 375px;
+  max-width: 450px;
+  width: 25%;
+  transform: translate(-50%, -50%);
+}
+.login_header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+.btn_login {
+  margin-top: 4rem;
+}
+
+.log_input {
+  width: 100%;
+  border-radius: 5px;
+}
+/* .loginPg_actions {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.signIn_opts_box {
+  margin-top: 2rem;
+}
+.signIn_text {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.signIn_opts {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.sIn_option {
+  font-size: 1.5rem;
+  background-color: brown;
+  border-radius: 100%;
+  padding: 0.5rem;
+  color: var(--color-white);
+  cursor: pointer;
+}

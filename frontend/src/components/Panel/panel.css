@@ -1,0 +1,9 @@
+.panel_container {
+  padding: 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 7px;
+}

@@ -1,0 +1,50 @@
+.contactBox {
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  padding-bottom: 5rem;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.addContact.addContact {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 9rem;
+  /* bottom: 4.25rem; */
+  right: 2rem;
+  /* background-color: var(--color-primary);
+  color: var(--color-black); */
+  padding: 0.5rem;
+  /* border-radius: 50%; */
+}
+
+.headingName {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.headingName > span {
+  color: var(--color-white);
+}
+
+.heading3 {
+  font-size: 3rem;
+}
+
+.heading3 > span {
+  color: var(--color-primary);
+}
+
+.userContacts {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+
+  width: 100%;
+  margin: 0 auto;
+  row-gap: 2rem;
+  column-gap: 1.5rem;
+  width: 100%;
+  padding: 2.5rem 1.5rem;
+}
