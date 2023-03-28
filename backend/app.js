@@ -12,7 +12,7 @@ const routes = require("./routes/v1");
 app.options("*", cors());
 app.use(
   cors({
-    origin: "https://yellow-contacts.vercel.app/",
+    origin: "https://yellow-contacts.vercel.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: "Origin, X-Requested-With, Content-Type, Accept",
     credentials: true,
