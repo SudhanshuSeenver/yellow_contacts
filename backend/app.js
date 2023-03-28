@@ -7,7 +7,18 @@ const routes = require("./routes/v1");
 
 // router.use("/user", userRoutes);
 // router.use("/auth", authRoutes);
-app.use(cors());
+// app.options();
+// app.use(cors());
+app.options("*", cors());
+app.use(
+  cors({
+    origin: "https://yellow-contacts.vercel.app/",
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    allowedHeaders: "Origin, X-Requested-With, Content-Type, Accept",
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 app.use("/v1", routes);
 
